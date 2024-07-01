@@ -125,7 +125,11 @@ celerybeat.pid
 .env
 .myenv
 .venv
+<<<<<<< HEAD
 myenv/
+=======
+myenv
+>>>>>>> 10b759f9a15a83df4eb7f79bdc8736ab4c9a637a
 env/
 venv/
 ENV/
