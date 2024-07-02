@@ -24,6 +24,10 @@ logging.basicConfig(
     level=logging.INFO,
 )
 
-
+if __name__ == "__main__":
+    try:
+        a = 1 / 0
+    except ZeroDivisionError as e:
+        raise CustomException("Divided By Zero", sys)
     
    
